@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button onclick="toggleForm()">Tampilkan / Sembunyikan Form</button>
+
+    <div id="formBox">
+        <form id="myForm">
+            <label>Nama:</label><br>
+            <input type="text" id="nama"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" id="email"><br><br>
+
+            <label>No HP:</label><br>
+            <input type="text" id="hp"><br><br>
+
+            <label>Pesan:</label><br>
+            <textarea id="pesan"></textarea><br><br>
+
+            <button type="submit">Kirim</button>
+        </form>
+
+        <div id="notif"></div>
+    </div>
+
+    <h3>Daftar Pengguna:</h3>
+    <ul id="daftar"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6f0; /* cream soft */
+    padding: 20px;
+    color: #5a4a42;
+}
+
+/* Container Form */
+#formBox {
+    background-color: #fffaf5;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    margin-top: 15px;
+}
+
+/* Input & textarea */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #e6d5c9;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+/* Focus */
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #d6bfa9;
+}
+
+/* Button */
+button {
+    background-color: #e6ccb2; /* cream lebih gelap */
+    color: #5a4a42;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ddb892;
+}
+
+/* Notifikasi */
+#notif {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* List */
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+li {
+    background-color: #f5ebe0;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+/* Toast (kalau pakai notifikasi popup) */
+.toast-success {
+    background-color: #e6ccb2;
+    color: #5a4a42;
+}

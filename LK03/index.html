@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Erika Salsabila Intania</title>
+</head>
+<body>
+
+    <!-- HEADER: Bagian kepala website -->
+    <header>
+        <h1>Profil</h1>
+        <img src="/accept/image/erika.jpeg" alt="" width="300px">
+        <p>Nama : Erika Salsabila Intania</p>
+        <p>NIM: 241020009</p>
+    </header>
+
+    <!-- NAV: Menu navigasi -->
+    <nav>
+        <a href="#profil">Profil</a> |
+        <a href="#tentang">Tentang</a> |
+        <a href="#daftar">Pendaftaran</a>
+    </nav>
+
+    <!-- MAIN: Isi utama website -->
+    <main>
+
+        <!-- SECTION: Bagian profil -->
+        <section id="profil">
+            <h2>Profil</h2>
+
+            <!-- ARTICLE: Artikel tentang diri -->
+    <p>
+        Halo! Saya <b>Erika Salsabila Intania</b>, mahasiswa 
+        <b>ITSK Dr. Soepraoen</b> jurusan <b>Informatika</b>. 
+        Saya memiliki ketertarikan pada bidang teknologi, khususnya 
+        pengembangan website dan sistem informasi.
+    </p>
+
+    <p>
+        Saat ini saya sedang mempelajari dasar-dasar pembuatan website 
+        seperti HTML, CSS, dan konsep pengembangan aplikasi web. 
+        Melalui pembelajaran ini, saya berharap dapat mengembangkan 
+        kemampuan di bidang teknologi informasi dan membuat proyek 
+        digital yang bermanfaat.
+    </p>
+
+     <!-- Kontak -->
+    <p>
+        <b>Instagram:</b> 
+        <a href="https://instagram.com/erikasalbila" target="_blank">@erikasalbila</a>
+        <br>
+        <b>Email:</b> 
+        <a href="mailto:erikasalsaa09@gmail.com">erikasalsaa09@gmail.com</a>
+    </p>
+            </article>
+
+        </section>
+
+        <!-- SECTION: Tentang -->
+        <section id="tentang">
+            <h2>Tentang Website</h2>
+
+            <article>
+                <p>
+                    Halaman ini merupakan contoh landing page sederhana yang dibuat menggunakan
+                    elemen HTML semantik seperti header, nav, main, section, article, dan footer.
+                </p>
+            </article>
+
+        </section>
+
+        <!-- SECTION: Form pendaftaran -->
+        <section id="daftar">
+            <h2>Form Pendaftaran</h2>
+
+            <!-- FORM dengan validasi HTML -->
+            <form>
+
+                <!-- Input Nama -->
+                <label>Nama Lengkap:</label><br>
+                <input type="text" name="nama" required><br><br>
+
+                <!-- Input Email -->
+                <label>Email:</label><br>
+                <input type="email" name="email" required><br><br>
+
+                <!-- Input Nomor HP -->
+                <label>Nomor HP:</label><br>
+                <input type="tel" name="nohp" required pattern="[0-9]{10,13}" 
+                placeholder="Contoh: 081234567890"><br><br>
+
+                <!-- Pilihan Kategori -->
+                <label>Pilih Kategori:</label><br>
+                <select name="kategori" required>
+                    <option value="">-- Pilih Kategori --</option>
+                    <option value="web">Web Development</option>
+                    <option value="design">UI/UX Design</option>
+                    <option value="data">Data Analyst</option>
+                </select><br><br>
+
+                <!-- Pesan -->
+                <label>Pesan:</label><br>
+                <textarea name="pesan" rows="4" cols="40" required></textarea><br><br>
+
+                <!-- Tombol submit -->
+                <button type="submit">Kirim</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER: Bagian bawah website -->
+    <footer>
+        <p>© 2026 - Erika Salsabila Intania</p>
+    </footer>
+
+</body>
+</html>
